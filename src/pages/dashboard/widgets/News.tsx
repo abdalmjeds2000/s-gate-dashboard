@@ -1,5 +1,5 @@
-import { CalendarCheck, Newspaper } from 'lucide-react';
 import * as React from 'react';
+import { CalendarCheck } from 'lucide-react';
 
 interface NewsItem {
   title: string;

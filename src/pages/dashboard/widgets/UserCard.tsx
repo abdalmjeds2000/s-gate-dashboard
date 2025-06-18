@@ -1,11 +1,4 @@
-import React from "react";
-import { Card, Avatar, Typography, Space, Dropdown, Menu } from "antd";
-import {
-  PhoneOutlined,
-  TeamOutlined,
-  LinkOutlined,
-  DownOutlined,
-} from "@ant-design/icons";
+import { Card, Typography, Space, Dropdown, Menu } from "antd";
 import { ChevronDown, Link, Phone, Upload, Users } from "lucide-react";
 
 const { Title, Text } = Typography;
