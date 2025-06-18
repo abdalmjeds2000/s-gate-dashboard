@@ -78,7 +78,7 @@ const AppHeader: React.FC = () => {
   const currentTime = now.format("h:mm:ss A");
 
   return (
-    <header className="bg-salic-primary text-white sticky top-0 z-50">
+    <header className="bg-salic text-white sticky top-0 z-50">
       <div className="flex items-center justify-between px-4 lg:px-8 py-2 container mx-auto">
         <div className="block lg:hidden gap-2">
           <img src="/images/logo.png" alt="SALIC Logo" className="h-10"/> 
