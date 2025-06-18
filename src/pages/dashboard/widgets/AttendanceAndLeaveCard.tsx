@@ -1,18 +1,22 @@
 import React from "react";
 import { Card, Progress, Typography } from "antd";
 import { Plus } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const { Title, Text } = Typography;
 
 const AttendanceAndLeaveCard = () => {
   return (
-    <Card hoverable bodyStyle={{ padding: 0, height: '100%' }} className="h-full !rounded-lg hover:!shadow-none hover:!border-salic-primary hover:!bg-salic-primary/5 !transition-all !duration-300">
+    <Card bodyStyle={{ padding: 0, height: '100%' }} className="h-full !rounded-lg hover:!shadow-none hover:!border-salic-primary hover:!bg-salic-primary/5 !transition-all !duration-300">
       <div className="grid grid-cols-1 lg:grid-cols-[3fr_2fr] divide-y lg:divide-y-0 lg:divide-x h-full">
         {/* Attendance Section */}
         <div className="p-4 xl:p-6 flex flex-col justify-between">
-          <Title level={5} className="text-[16px] font-semibold mb-4">
-            My Attendance
-          </Title>
+          <Link to='/attendance'>
+            <Title level={5} className="text-[16px] font-semibold mb-4">
+              My Attendance
+            </Title>
+          </Link>
+
           <div>
             <div className="grid grid-cols-2 gap-y-6 gap-x-4 text-sm">
               {/* Check In */}

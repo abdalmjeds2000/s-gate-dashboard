@@ -1,17 +1,17 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 
-import UserCard from '../components/UserCard'
-import AttendanceAndLeaveCard from '../components/AttendanceAndLeaveCard'
-import IDPProgressCard from '../components/IDPProgressCard'
-import TaskTabs from '../components/TaskTabs'
-import AppsGrid from '../components/AppsGrid'
-import OrganizationDocuments from '../components/OrganizationDocuments'
-import Favorites from '../components/Favorites'
-import Announcements from '../components/Announcements'
-import News from '../components/News'
-import AlbumsCarousel from '../components/AlbumsCarousel'
-import SocialMedia from '../components/SocialMedia'
+import UserCard from './widgets/UserCard'
+import AttendanceAndLeaveCard from './widgets/AttendanceAndLeaveCard'
+import IDPProgressCard from './widgets/IDPProgressCard'
+import TaskTabs from './widgets/TaskTabs'
+import AppsGrid from './widgets/AppsGrid'
+import OrganizationDocuments from './widgets/OrganizationDocuments'
+import Favorites from './widgets/Favorites'
+import Announcements from './widgets/Announcements'
+import News from './widgets/News'
+import AlbumsCarousel from './widgets/AlbumsCarousel'
+import SocialMedia from './widgets/SocialMedia'
 
 const fadeInUp: any = {
   hidden: { opacity: 0, y: 50 },
